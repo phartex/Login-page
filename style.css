@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(paris2.jpg);
+    background-size: cover;
+    box-shadow: black 5px;
+}
+.dark {
+    background: black;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    opacity: 0.78;
+}
+
+.login-box{
+    width: 280px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.login-box h1 {
+    padding: 5px 0;
+    margin-bottom: 50px;
+    border-bottom: 2px solid;
+    font-size: 40px;
+}
+.login-box .text-box{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 3px solid #eede2e ;
+    overflow: hidden;
+}
+
+.text-box .image{
+   
+    width: 26px;
+     float: left;
+    text-align: center;
+ }
+
+ 
+.text-box input{
+    border: none;
+    outline: none;
+    background: none; 
+    color: #fff; 
+    float: right; 
+}
+.button{
+    width: 100%;
+    background: none;
+    border: 2px solid #eede2e;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+    color: #fff;
+}
+.button:hover{
+    color:blue;
+}
